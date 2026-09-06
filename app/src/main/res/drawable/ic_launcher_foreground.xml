@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow / Soft Shadow -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M54,14 A40,40 0 1,0 54,94 A40,40 0 1,0 54,14 Z" />
+    <path
+        android:fillColor="#10000000"
+        android:pathData="M54,16 A38,38 0 1,0 54,92 A38,38 0 1,0 54,16 Z" />
+
+    <!-- Centered Glossy Speech Bubble Container -->
+    <path
+        android:pathData="M 54, 28 C 41, 28 30, 38 30, 50 C 30, 58 35, 65 42, 69 L 42, 79 L 52, 71 C 53, 71 54, 71 54, 71 C 67, 71 78, 61 78, 50 C 78, 38 67, 28 54, 28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="30"
+                android:startY="28"
+                android:endX="78"
+                android:endY="71">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#F1F5F9" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glossy border around the speech bubble -->
+    <path
+        android:pathData="M 54, 28 C 41, 28 30, 38 30, 50 C 30, 58 35, 65 42, 69 L 42, 79 L 52, 71 C 53, 71 54, 71 54, 71 C 67, 71 78, 61 78, 50 C 78, 38 67, 28 54, 28 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#E2E8F0" />
+
+    <!-- Styled Premium Letter 'L' with rich purple-indigo gradient inside the bubble -->
+    <path
+        android:pathData="M 48, 39 L 48, 59 L 63, 59 L 63, 54 L 54, 54 L 54, 39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="48"
+                android:startY="39"
+                android:endX="63"
+                android:endY="59">
+                <item android:color="#4338CA" android:offset="0.0" />
+                <item android:color="#0D9488" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Decorative star spark (indicating AI intelligence) in the upper right corner of bubble -->
+    <path
+        android:pathData="M 69, 36 L 70.5, 39 L 73.5, 39.5 L 71.25, 41.5 L 72, 44.5 L 69, 43 L 66, 44.5 L 66.75, 41.5 L 64.5, 39.5 L 67.5, 39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="64.5"
+                android:startY="36"
+                android:endX="73.5"
+                android:endY="44.5">
+                <item android:color="#F59E0B" android:offset="0.0" />
+                <item android:color="#D97706" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

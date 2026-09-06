@@ -1,0 +1,6 @@
+{
+  "name": "AI Language Tutor",
+  "description": "An AI-powered voice-first language tutor focusing on spoken fluency, personalized roleplays, and continuous feedback. Twórca / Architekt: Paweł Pogoda. Status: Autorski System Edukacyjny.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
